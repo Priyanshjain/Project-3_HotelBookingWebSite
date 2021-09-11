@@ -18,9 +18,9 @@ public class Customer {
 	@Column
 	private String customerName;
 	@Column
-	private String Password;
+	private int age;
 	@Column
-	private String confirmPassword;
+	private String gender;
 	@Column
 	private String mobileNumber;
 	@Column
@@ -31,5 +31,10 @@ public class Customer {
 	private String state;
 	@Column
 	private String country;
+	@Column
+	private String Password;
+	@Column
+	private String confirmPassword;
+
 	
 }
